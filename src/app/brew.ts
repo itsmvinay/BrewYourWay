@@ -1,0 +1,15 @@
+export interface Brew {
+    id: number,
+    name: string,
+    brewery_type: string,
+    street: string,
+    city: string,
+    state: string,
+    website_url: string,
+    phone: string,
+    created_at: string,
+    updated_at: string,
+    country: string,
+    longitude: string,
+    latitude: string,
+}
